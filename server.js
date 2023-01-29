@@ -53,6 +53,8 @@ const server = http.createServer((req, res) => {
     });
 });
 
+
+// Listen for requests
 server.listen(3000, 'localhost', () => {
     console.log('Listening for requests on port 3000');
 });
